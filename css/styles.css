@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    /* transform: rotateX(-10deg); */
+  }
+
+  to {
+    opacity: 1;
+    /* transform: rotateX(0deg); */
+  }
+}
+
+
+body {
+  animation: transitionIn 1s;
+  text-shadow: 2px 1px 3px rgba(150, 150, 150, 0.69);
+  font-family: "Raleway";
+  text-align: center;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.desc {
+  font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: 2px
+}
+
+.desc-2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+/* Headings */
+
+.big-heading {
+  font-family: "Raleway-bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#slogan {
+  font-family: "Raleway";
+}
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background: black;
+  color: #fff;
+
+}
+
+.white-section {
+  background-color: #f2f2f2;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0.5rem 0.5rem 0.5rem;
+}
+
+.navbar-brand {
+  font-family: "Raleway";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-family: "Raleway";
+  padding: 0px 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Raleway";
+  transition: transform .5s ease;
+
+}
+
+.nav-link:hover {
+
+  transform: scale(1.2);
+
+}
+
+/* Home pic */
+
+
+#home-carousel-inner {
+  width: 100%;
+  height: 95%;
+  margin: 0px;
+  position: relative;
+}
+
+.p-shade {
+  color: white;
+  font-size: 7rem;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.shade {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Buttons */
+
+/* Title Section */
+
+#title {
+  color: #fff;
+  text-align: center;
+}
+
+#vision {
+  position: relative;
+}
+
+/* Features Section */
+
+#projects {
+  position: center;
+
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.projects-box {
+  padding: 4.5%;
+}
+
+/* Footer Section */
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.download-button {
+  margin: 0;
+}
+
+/* Other pages and projects */
+
+.projects-column {
+  padding: 3% 2%;
+}
+
+#projects {
+  /* padding: 100px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#cont-carr {
+  padding: 0;
+}
+
+#col-lg-4 {
+  position: absolute;
+}
+
+/* ____________________________contact us form */
+
+.formthree {
+  background: black;
+}
+
+.ptb-100 {
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.formthree .form-control {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-size: 18px;
+  border: 1px solid white;
+  background: transparent;
+  font-family: "Raleway";
+  color: #f2f2f2;
+}
+
+form .btn {
+  border-radius: 2 !important;
+}
+
+.formthree form button.btn {
+  margin: 30px auto;
+  display: block;
+  padding: 11px 32px;
+  background: rgb(93, 92, 92);
+  border: 1px solid #58595a;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.formthree .btn-primary.focus,
+.formthree .btn-primary:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white !important;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0;
+  color: #f2f2f2;
+  overflow: hidden;
+ 
+}
+
+.card img{
+  transition: transform 1s ease;
+}
+
+.card:hover img{
+  transform: scale(1.2);
+}
+
+#vision {
+  margin-top: -50px;
+}
+
+
+#footer p{
+  letter-spacing: 3px;
+}
